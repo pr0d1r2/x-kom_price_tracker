@@ -12,3 +12,6 @@ puts disk_8tb.price_info
 
 disk_6tb = Xkom::Disk.new(6000, '255467-dysk-hdd-seagate-6tb-5900obr-128mb-archive')
 puts disk_6tb.price_info
+
+disk_3tb = Xkom::Disk.new(3000, '323219-dysk-hdd-toshiba-3tb-7200obr-64mb-p300-oem')
+puts disk_3tb.price_info
